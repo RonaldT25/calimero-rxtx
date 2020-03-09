@@ -69,7 +69,6 @@ import tuwien.auto.calimero.KNXException;
 public class RxtxAdapter extends LibraryAdapter
 {
 	private static final int OPEN_TIMEOUT = 200;
-
 	private SerialPort port;
 	private InputStream is;
 	private OutputStream os;
